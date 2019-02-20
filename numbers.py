@@ -9,3 +9,6 @@ print(a*b)
 age= input("enter your age")
 new_age= int(age) + 50
 print(new_age)
+age= input("enter your age")
+new_age= int(age) -10
+print(new_age)
