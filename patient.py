@@ -1,5 +1,5 @@
-name= input("what is your name? ")
-print("hello " + name ) 
-age= input("enter your age")
-color= input("what is your favorite color? ")
-print(name +" loves " + color )
+
+birth_year= input("enter your birth year")
+age= 2019 - int(birth_year)
+print(type (age) )
+print(age)
