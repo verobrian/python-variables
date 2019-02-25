@@ -1,5 +1,4 @@
+weight_lbs= input("weight in lbs")
+weight_kgs=(int(weight_lbs)* 0.45)
+print(weight_kgs)
 
-birth_year= input("enter your birth year")
-age= 2019 - int(birth_year)
-print(type (age) )
-print(age)
