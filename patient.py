@@ -1,4 +1,5 @@
-weight_lbs= input("weight in lbs")
-weight_kgs=(int(weight_lbs)* 0.45)
-print(weight_kgs)
-
+is_hot=True
+if  is_hot:
+    print("it's a hot day")
+    print("drink enough water")
+print("have a good day swiry")
