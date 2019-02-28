@@ -1,7 +1,7 @@
-is_hot= False
-if  is_hot:
-    print("it's a hot day")
-    print("drink enough water")
-else:("it's a cold day")
-print("wear warm clothes")
-print("have a good day swiry")
+cost=1000000
+good_credit= False
+if good_credit:
+    down_payment=0.2* cost
+else:
+    down_payment=0.3 *cost
+print(down_payment)
