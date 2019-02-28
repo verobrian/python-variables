@@ -1,7 +1,6 @@
-cost=1000000
-good_credit= False
-if good_credit:
-    down_payment=0.2* cost
+has_good_credit=True
+has_high_income= False
+if has_good_credit and has_high_income:
+    print("eligible for loan")
 else:
-    down_payment=0.3 *cost
-print(down_payment)
+    print("not eligible for loan")
